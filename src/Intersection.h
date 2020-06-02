@@ -49,6 +49,7 @@ private:
 
     // typical behaviour methods
     void processVehicleQueue();
+     TrafficLight _trafficLight ;
 
     // private members
     std::vector<std::shared_ptr<Street>> _streets;   // list of all streets connected to this intersection
